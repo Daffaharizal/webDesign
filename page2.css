@@ -1,0 +1,215 @@
+@media (min-width: 992px) {
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+  /* Navbar */
+
+
+  #Navbar img {
+    height: 28px;
+    width: auto;
+    object-fit: cover;
+  }
+
+  #Navbar .navbar-expand-lg {
+    background: linear-gradient(to right, #ffffff, #00000000);
+  }
+
+  #Navbar .active {
+    color: #fdc20c;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    padding: 0 30px;
+    font-size: 1.1em;
+    position: relative;
+  }
+
+  .navbar .navbar-nav .nav-link:hover {
+    color: #fdc20c;
+  }
+
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fdc20c;
+    color: transparent;
+    width: 0%;
+    content: ".";
+    height: 3px;
+  }
+
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 50%;
+  }
+
+  /* Content */
+  #Content h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 87px;
+  }
+
+  #Content p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #acacac;
+  }
+
+  #Content img {
+    width: 17rem;
+    height: 16rem;
+    margin-bottom: 240px;
+    margin-top: 177px;
+  }
+
+  /* Package */
+
+  #Package .discon img,
+  #Package .delivery img {
+    width: 77px;
+    height: 77px;
+    margin-bottom: 25px;
+  }
+
+  #Package .discon h5,
+  #Package .delivery h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #Package .discon p,
+  #Package .delivery p {
+    font-family: "Poppins", sans-serif;
+    color: #acacac;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #Package .BestQuality img,
+  #Package .HealthyMenu img {
+    width: 77px;
+    height: 77px;
+    margin-bottom: 25px;
+  }
+
+  #Package .BestQuality p,
+  #Package .HealthyMenu p {
+    font-family: "Poppins", sans-serif;
+    color: #acacac;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #Informasi h5 {
+    margin-top: 312px;
+    margin-bottom: 63px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  #Informasi .input-group {
+    margin-bottom: 47px;
+    width: 66%;
+    height: 58px;
+    background: #ffffff;
+    border: 2px solid #fdc20c;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 17%;
+  }
+
+  #Informasi .btn-warning {
+    background: #fdc20c;
+    border-radius: 50px;
+    width: 190px;
+    height: 47px;
+  }
+
+  /* BASENG */
+
+
+  /* Footer */
+
+  #Footer {
+    padding: 40px 0;
+    background-color: rgba(0, 0, 0, 0.062);
+    margin-top: 120px;
+    border-top: 3px solid #fdc20c;
+  }
+
+  #Footer a:hover {
+    color: black;
+  }
+
+  #Footer h3 {
+    font-weight: 700;
+  }
+
+  #Footer img {
+    width: auto;
+    height: 33px;
+    margin-bottom: 25px;
+  }
+
+  #Footer .bi-facebook,
+  .bi-instagram,
+  .bi-twitter,
+  .bi-youtube {
+    font-size: 30px;
+    color: #acacac;
+    margin-right: 10px;
+    padding: 2px;
+  }
+
+
+  #Footer .bi-youtube {
+    font-size: 33px !important;
+  }
+
+  #Footer .bi-facebook:hover,
+  .bi-instagram:hover,
+  .bi-twitter:hover,
+  .bi-youtube:hover {
+    color: orange;
+  }
+
+  #Footer ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #Footer ul li {
+    list-style: none;
+  }
+
+  #Footer ul li a {
+    text-decoration: none;
+    color: #acacac;
+    font-size: 16px;
+    margin: 8px 0px;
+    display: block;
+  }
+
+  #Footer .text-dark {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-bottom: auto;
+  }
+}
+

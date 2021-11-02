@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+
+#Navbar img {
+  height: 40px;
+  width: auto;
+  object-fit: cover;
+}
+
+#Navbar ul {
+  margin-top: 17px;
+}
+
+#Navbar .navbar-expand-lg {
+  background: linear-gradient(to right, #ffffff, #00000000);
+}
+
+#Navbaravbar .active {
+  color: #fdc20c;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  padding: 0 30px;
+  font-size: 1.1em;
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-link:hover::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #f7862d;
+  color: transparent;
+  /* width: 30%; */
+  content: ".";
+  height: 3px;
+}
+
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 35%;
+}
+
+/* Banner */
+
+#Banner h1 {
+  margin-top: 140px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+#Banner p {
+  color: #acacac;
+}
+
+#Banner p::after {
+  font-family: "Poppins", sans-serif;
+  color: #c72121;
+  font-size: 16px;
+  padding: 21px 0px;
+  line-height: 24px;
+}
+
+#Banner .btn-warning {
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #f7862d;
+  border-color: #f7852d;
+}
+
+#Banner .color {
+  color: #f7862d;
+}
+
+#Banner .lihatDetail {
+  text-decoration: none;
+  color: #f7862d;
+}
+
+#Banner .lihatDetail:hover {
+  text-decoration: underline;
+  color: #f7862d;
+}
+
+#Banner .gambarBanner {
+  width: auto;
+  height: 31rem;
+  margin-bottom: 124px;
+}
+
+/* Buah */
+#Buah .gambarBuah {
+  width: auto;
+  height: 24rem;
+}
+
+#Buah .contentBuah p {
+  font-weight: 500;
+  color: #84d387;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+#Buah .contentBuah h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0px;
+  line-height: 60px;
+}
+
+#Buah .contentBuah h2 {
+  line-height: 25px;
+  font-size: 16px;
+  color: #acacac;
+  font-family: "Poppins", sans-serif;
+}
+
+#Buah .btn-warning {
+  margin: 5px 0px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #f7862d;
+  border-color: #f7862d;
+}
+
+#Buah .color {
+  color: #f7862d;
+}
+
+/* Menu */
+
+#Menu h1 {
+  margin-top: 150px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 60px;
+}
+
+#Menu .color {
+  color: #f7862d;
+}
+
+#Menu p {
+  color: #acacac;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+#Menu .lihatSemua {
+  text-decoration: none;
+  color: #f7862d;
+}
+
+#Menu .lihatSemua:hover {
+  text-decoration: underline;
+}
+
+#Menu .card {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#Menu .card:hover {
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.349);
+}
+
+#Menu a {
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+#Menu img {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+}
+
+#Menu .card-title {
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.submit {
+  background-color: rgba(255, 166, 0, 0.849);
+  text-decoration: none;
+  padding-bottom: 2px;
+  color: black;
+  padding: 12px 45px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.submit:hover {
+  color: black;
+  background-color: rgb(255, 166, 0);
+}
+
+/* Informasi */
+
+#Informasi h5 {
+  margin-top: 172px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+#Informasi .input-group {
+  margin-bottom: 47px;
+  width: 66%;
+  height: 58px;
+  background: #ffffff;
+  border: 2px solid #f7862d;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 17%;
+}
+
+#Informasi .btn-warning {
+  background: #f7862d;
+  border-radius: 50px;
+  width: 190px;
+  height: 47px;
+}
+
+/* BASENG */
+video {
+  width: 50%;
+}
+
+/* Footer */
+
+#Footer {
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.062);
+  margin-top: 120px;
+  border-top: 3px solid #f7862d;
+}
+
+#Footer a:hover {
+  color: black;
+}
+
+#Footer h3 {
+  font-weight: 700;
+}
+
+#Footer img {
+  width: auto;
+  height: 33px;
+  margin-bottom: 25px;
+}
+
+#Footer .bi-facebook,
+.bi-instagram,
+.bi-twitter,
+.bi-youtube {
+  font-size: 30px;
+  color: #acacac;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+
+#Footer .bi-youtube {
+  font-size: 33px !important;
+}
+
+#Footer .bi-facebook:hover,
+.bi-instagram:hover,
+.bi-twitter:hover,
+.bi-youtube:hover {
+  color: orange;
+}
+
+#Footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#Footer ul li {
+  list-style: none;
+}
+
+#Footer ul li a {
+  text-decoration: none;
+  color: #acacac;
+  font-size: 16px;
+  margin: 8px 0px;
+  display: block;
+}
+
+#Footer .text-dark {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-bottom: auto;
+}
