@@ -72,6 +72,7 @@
   color: #ffffff;
   background-color: #f7862d;
   border-color: #f7852d;
+  padding: 10px 25px;
 }
 
 #Banner .color {
@@ -128,6 +129,7 @@
   color: #ffffff;
   background-color: #f7862d;
   border-color: #f7862d;
+  padding: 10px 25px;
 }
 
 #Buah .color {
@@ -156,6 +158,12 @@
   font-size: 16px;
 }
 
+#Menu .card-text {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
 #Menu .lihatSemua {
   text-decoration: none;
   color: #f7862d;
@@ -163,12 +171,16 @@
 
 #Menu .lihatSemua:hover {
   text-decoration: underline;
+  background-color: white;
 }
 
 #Menu .card {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   object-fit: cover;
+  background-color: #f7862d;
+  color: white;
+  height: 103%;
 }
 
 #Menu .card:hover {
@@ -177,7 +189,16 @@
 
 #Menu a {
   border-radius: 50px;
-  color: #ffffff;
+  color: #f7862d;
+  padding: 12px;
+  width: 206px;
+  background-color: white;
+  font-weight: 600;
+  border-color: #f7862d;
+}
+
+#Menu a:hover {
+  background-color: #f5f5f5;
 }
 
 #Menu img {
@@ -210,7 +231,7 @@
 /* Informasi */
 
 #Informasi h5 {
-  margin-top: 172px;
+  margin-top: 150px;
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: 600;
@@ -219,7 +240,8 @@
 }
 
 #Informasi .input-group {
-  margin-bottom: 47px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   width: 66%;
   height: 58px;
   background: #ffffff;
@@ -234,6 +256,18 @@
   border-radius: 50px;
   width: 190px;
   height: 47px;
+}
+
+#Informasi .submit {
+  background-color: #f7862d;
+}
+
+#Informasi .color {
+  color: #f7862d;
+}
+
+#Informasi a {
+  color: white;
 }
 
 /* BASENG */
@@ -260,7 +294,7 @@ video {
 
 #Footer img {
   width: auto;
-  height: 33px;
+  height: 45px;
   margin-bottom: 25px;
 }
 
@@ -283,7 +317,7 @@ video {
 .bi-instagram:hover,
 .bi-twitter:hover,
 .bi-youtube:hover {
-  color: orange;
+  color: #f7862d;
 }
 
 #Footer ul {
